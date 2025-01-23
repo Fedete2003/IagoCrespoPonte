@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Ud02/Flowers.unity
+- path: Assets/Scenes/Ud03/StarWars.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

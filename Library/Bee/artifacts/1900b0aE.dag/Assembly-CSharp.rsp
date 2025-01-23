@@ -373,6 +373,8 @@
 "Assets/Scripts/UD02/Flower/DefensorMovimiento.cs"
 "Assets/Scripts/UD02/Flower/Enemigo.cs"
 "Assets/Scripts/UD02/Flower/Ramo.cs"
+"Assets/Scripts/UD03/StarWars/Balas.cs"
+"Assets/Scripts/UD03/StarWars/Player/XWingMovimiento.cs"
 -langversion:9.0
 /deterministic
 /optimize+

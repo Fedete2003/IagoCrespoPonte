@@ -63,9 +63,11 @@
     <Compile Include="Assets\Scripts\UD01\Addition.cs" />
     <Compile Include="Assets\Scripts\UD02\Egg\SeguimientoCamara.cs" />
     <Compile Include="Assets\Scripts\UD02\Egg\FuncionGallina.cs" />
+    <Compile Include="Assets\Scripts\UD03\StarWars\Balas.cs" />
     <Compile Include="Assets\Scripts\UD02\Flower\Enemigo.cs" />
     <Compile Include="Assets\Scripts\UD01\Odd.cs" />
     <Compile Include="Assets\Scripts\UD02\Flower\Camara.cs" />
+    <Compile Include="Assets\Scripts\UD03\StarWars\Player\XWingMovimiento.cs" />
     <Compile Include="Assets\Scripts\UD01\MultiplesOfThree.cs" />
     <Compile Include="Assets\Scripts\UD02\Flower\CrearEnemigo.cs" />
     <Compile Include="Assets\Scripts\UD02\Flower\Ramo.cs" />
