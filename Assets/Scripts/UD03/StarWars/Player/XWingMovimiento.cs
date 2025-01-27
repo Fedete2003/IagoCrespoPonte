@@ -6,7 +6,7 @@ public class XWingMovimiento : MonoBehaviour
 {
 
     //Zona Variables globales 
-    [Header("Movement")]
+    [Header("Movimiento")]
     [SerializeField]
     private float _velocidad;
     [SerializeField]
@@ -18,6 +18,18 @@ public class XWingMovimiento : MonoBehaviour
     [SerializeField]
     private Transform[] _posRotBalasArray;
 
+    private AudioSource _audioDisparo;
+
+
+
+    private void Awake()
+    {
+
+        Cursor.lockState = CursorLockMode.Locked;
+        _audioDisparo = GetComponent<AudioSource>();
+
+
+    }
 
 
 
@@ -64,6 +76,8 @@ public class XWingMovimiento : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0))
         {
+
+            _audioDisparo.Play();
 
             //Recorremos el Array
             for (int i = 0; i < _posRotBalasArray.Length; i++)
